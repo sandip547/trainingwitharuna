@@ -9,9 +9,7 @@ public class RunPayment {
         pay.initiatePayment();
 
         Payment payPayal = new PaypalPayment();
-
-
-
+        System.out.println("Hello there");
         AdvancePayment payment = new AdvancePayment(1,"riya123");
         payment.initiatePayment();
         System.out.println("PaymentId: " + payment.paymentId + "userName :" + payment.userName);
