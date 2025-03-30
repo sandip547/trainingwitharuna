@@ -7,7 +7,7 @@ public class RunPayment {
         Payment pay = new AdvancePayment(1,"RIYA");
 
         pay.initiatePayment();
-
+        System.out.println("Hello there this is a ne change");
         Payment payPayal = new PaypalPayment();
         System.out.println("Hello there");
         AdvancePayment payment = new AdvancePayment(1,"riya123");
